@@ -21,5 +21,9 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func showScannerView(sender: AnyObject) {
+        let scanner = ScannerViewController()
+        self.navigationController?.pushViewController(scanner, animated: true)
+    }
 }
 
