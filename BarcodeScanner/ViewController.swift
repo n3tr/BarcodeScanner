@@ -22,8 +22,28 @@ class ViewController: UIViewController {
 
 
     @IBAction func showScannerView(sender: AnyObject) {
-        let scanner = ScannerViewController()
-        self.navigationController?.pushViewController(scanner, animated: true)
+        // Main Flow : Show Scanner
+//        let scanner = ScannerViewController()
+//        self.navigationController?.pushViewController(scanner, animated: true)
+        
+        // ----------
+        // For Dev
+        // -----------
+        let pData = PrepareRegistrationData()
+        pData.cardImage = UIImage(named: "card")
+        pData.codeImage = UIImage(named: "barcode")
+        pData.phoneNumber = "0821113310"
+        pData.idNo = ""
+        pData.cardType = .IDCard
+        
+        
+        // Shot Form
+        let prepaidForm = PrepaidFormTableViewController(prepaidData: pData)
+        self.navigationController?.pushViewController(prepaidForm, animated: true)
+        
+        // Show Summary
+//        let prepaidSummary = PrepaidSummaryTableViewController(prepaidData: pData)
+//        self.navigationController?.pushViewController(prepaidSummary, animated: true)
     }
 }
 

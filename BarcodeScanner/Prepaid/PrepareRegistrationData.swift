@@ -9,11 +9,19 @@
 import Foundation
 
 
+enum IDCardType: String {
+    case IDCard = "บัตรประชน"
+    case Passport = "หนังสือเดินทาง"
+}
+
+
 class PrepareRegistrationData: NSObject {
     
     var code: String?
     var codeImage: UIImage?
-    
     var cardImage: UIImage?
+    var phoneNumber: String?
+    var idNo: String?
+    var cardType: IDCardType = .IDCard
     
 }

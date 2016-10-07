@@ -13,18 +13,19 @@
 		6A02A9D91DA2429C003DAA75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A02A9D81DA2429C003DAA75 /* Assets.xcassets */; };
 		6A02A9DC1DA2429C003DAA75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A02A9DA1DA2429C003DAA75 /* LaunchScreen.storyboard */; };
 		6A02A9E71DA2429D003DAA75 /* BarcodeScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A02A9E61DA2429D003DAA75 /* BarcodeScannerTests.swift */; };
-		6A02A9F61DA2436A003DAA75 /* BarcodeScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A02A9F51DA2436A003DAA75 /* BarcodeScannerViewController.swift */; };
 		6A02A9FA1DA2456B003DAA75 /* NSObject+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A02A9F91DA2456B003DAA75 /* NSObject+Test.m */; };
 		6A02A9FD1DA24752003DAA75 /* MTBBarcodeScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A02A9FC1DA24752003DAA75 /* MTBBarcodeScanner.m */; };
 		6A2015061DA55AED003A2DE1 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2015051DA55AED003A2DE1 /* ScannerViewController.swift */; };
 		6A39E8531DA6334500D79208 /* PrepareRegistrationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A39E8521DA6334500D79208 /* PrepareRegistrationData.swift */; };
-		6A39E8561DA659DD00D79208 /* PrepaidSummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A39E8541DA659DD00D79208 /* PrepaidSummaryViewController.swift */; };
-		6A39E8571DA659DD00D79208 /* PrepaidSummaryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A39E8551DA659DD00D79208 /* PrepaidSummaryViewController.xib */; };
 		6A39E85C1DA6657500D79208 /* CardCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A39E85A1DA6657500D79208 /* CardCameraViewController.swift */; };
 		6A39E85D1DA6657500D79208 /* CardCameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A39E85B1DA6657500D79208 /* CardCameraViewController.xib */; };
 		6A54E34C1DA56FE900970A4C /* ImagePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A54E34A1DA56FE900970A4C /* ImagePreviewViewController.swift */; };
 		6A54E34D1DA56FE900970A4C /* ImagePreviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A54E34B1DA56FE900970A4C /* ImagePreviewViewController.xib */; };
 		6A92287C1DA6264F006DDF3B /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A92287B1DA6264F006DDF3B /* UIImage+Extension.swift */; };
+		6AB977D01DA74B4400140CD2 /* PrepaidSummaryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB977CE1DA74B4400140CD2 /* PrepaidSummaryTableViewController.swift */; };
+		6AB977D11DA74B4400140CD2 /* PrepaidSummaryTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AB977CF1DA74B4400140CD2 /* PrepaidSummaryTableViewController.xib */; };
+		6AE84EB21DA757CE008F1917 /* PrepaidFormTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE84EB01DA757CE008F1917 /* PrepaidFormTableViewController.swift */; };
+		6AE84EB31DA757CE008F1917 /* PrepaidFormTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AE84EB11DA757CE008F1917 /* PrepaidFormTableViewController.xib */; };
 		9E7E192A0158BD3D7F5BCF4D /* Pods_BarcodeScannerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A781B1A2CD34C5E7AF724C60 /* Pods_BarcodeScannerTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,7 +53,6 @@
 		6A02A9E21DA2429D003DAA75 /* BarcodeScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarcodeScannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A02A9E61DA2429D003DAA75 /* BarcodeScannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerTests.swift; sourceTree = "<group>"; };
 		6A02A9E81DA2429D003DAA75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6A02A9F51DA2436A003DAA75 /* BarcodeScannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarcodeScannerViewController.swift; sourceTree = "<group>"; };
 		6A02A9F71DA2456B003DAA75 /* BarcodeScanner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BarcodeScanner-Bridging-Header.h"; sourceTree = "<group>"; };
 		6A02A9F81DA2456B003DAA75 /* NSObject+Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Test.h"; sourceTree = "<group>"; };
 		6A02A9F91DA2456B003DAA75 /* NSObject+Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Test.m"; sourceTree = "<group>"; };
@@ -60,13 +60,15 @@
 		6A02A9FC1DA24752003DAA75 /* MTBBarcodeScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTBBarcodeScanner.m; sourceTree = "<group>"; };
 		6A2015051DA55AED003A2DE1 /* ScannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
 		6A39E8521DA6334500D79208 /* PrepareRegistrationData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrepareRegistrationData.swift; sourceTree = "<group>"; };
-		6A39E8541DA659DD00D79208 /* PrepaidSummaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrepaidSummaryViewController.swift; sourceTree = "<group>"; };
-		6A39E8551DA659DD00D79208 /* PrepaidSummaryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PrepaidSummaryViewController.xib; sourceTree = "<group>"; };
 		6A39E85A1DA6657500D79208 /* CardCameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCameraViewController.swift; sourceTree = "<group>"; };
 		6A39E85B1DA6657500D79208 /* CardCameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardCameraViewController.xib; sourceTree = "<group>"; };
 		6A54E34A1DA56FE900970A4C /* ImagePreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePreviewViewController.swift; sourceTree = "<group>"; };
 		6A54E34B1DA56FE900970A4C /* ImagePreviewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImagePreviewViewController.xib; sourceTree = "<group>"; };
 		6A92287B1DA6264F006DDF3B /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		6AB977CE1DA74B4400140CD2 /* PrepaidSummaryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrepaidSummaryTableViewController.swift; sourceTree = "<group>"; };
+		6AB977CF1DA74B4400140CD2 /* PrepaidSummaryTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PrepaidSummaryTableViewController.xib; sourceTree = "<group>"; };
+		6AE84EB01DA757CE008F1917 /* PrepaidFormTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrepaidFormTableViewController.swift; sourceTree = "<group>"; };
+		6AE84EB11DA757CE008F1917 /* PrepaidFormTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PrepaidFormTableViewController.xib; sourceTree = "<group>"; };
 		A781B1A2CD34C5E7AF724C60 /* Pods_BarcodeScannerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BarcodeScannerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA73C6DF7B7A2717E14F52E1 /* Pods_BarcodeScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BarcodeScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F033AE04650502A72A8B7143 /* Pods-BarcodeScanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarcodeScanner.release.xcconfig"; path = "Pods/Target Support Files/Pods-BarcodeScanner/Pods-BarcodeScanner.release.xcconfig"; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 		6A02A9D01DA2429C003DAA75 /* BarcodeScanner */ = {
 			isa = PBXGroup;
 			children = (
+				6AE84EAF1DA7513B008F1917 /* DummyImages */,
 				6A39E8511DA62FA200D79208 /* BarcodeScanner */,
 				6A02A9D11DA2429C003DAA75 /* AppDelegate.swift */,
 				6A02A9D31DA2429C003DAA75 /* ViewController.swift */,
@@ -141,7 +144,6 @@
 				6A02A9D81DA2429C003DAA75 /* Assets.xcassets */,
 				6A02A9DA1DA2429C003DAA75 /* LaunchScreen.storyboard */,
 				6A02A9DD1DA2429C003DAA75 /* Info.plist */,
-				6A02A9F51DA2436A003DAA75 /* BarcodeScannerViewController.swift */,
 				6A02A9F81DA2456B003DAA75 /* NSObject+Test.h */,
 				6A02A9F91DA2456B003DAA75 /* NSObject+Test.m */,
 				6A02A9F71DA2456B003DAA75 /* BarcodeScanner-Bridging-Header.h */,
@@ -168,12 +170,22 @@
 				6A92287B1DA6264F006DDF3B /* UIImage+Extension.swift */,
 				6A2015051DA55AED003A2DE1 /* ScannerViewController.swift */,
 				6A39E8521DA6334500D79208 /* PrepareRegistrationData.swift */,
-				6A39E8541DA659DD00D79208 /* PrepaidSummaryViewController.swift */,
-				6A39E8551DA659DD00D79208 /* PrepaidSummaryViewController.xib */,
 				6A39E85A1DA6657500D79208 /* CardCameraViewController.swift */,
 				6A39E85B1DA6657500D79208 /* CardCameraViewController.xib */,
+				6AE84EB01DA757CE008F1917 /* PrepaidFormTableViewController.swift */,
+				6AE84EB11DA757CE008F1917 /* PrepaidFormTableViewController.xib */,
+				6AB977CE1DA74B4400140CD2 /* PrepaidSummaryTableViewController.swift */,
+				6AB977CF1DA74B4400140CD2 /* PrepaidSummaryTableViewController.xib */,
 			);
 			name = BarcodeScanner;
+			path = Prepaid;
+			sourceTree = "<group>";
+		};
+		6AE84EAF1DA7513B008F1917 /* DummyImages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DummyImages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,10 +273,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A39E8571DA659DD00D79208 /* PrepaidSummaryViewController.xib in Resources */,
+				6AB977D11DA74B4400140CD2 /* PrepaidSummaryTableViewController.xib in Resources */,
 				6A02A9DC1DA2429C003DAA75 /* LaunchScreen.storyboard in Resources */,
 				6A02A9D91DA2429C003DAA75 /* Assets.xcassets in Resources */,
 				6A39E85D1DA6657500D79208 /* CardCameraViewController.xib in Resources */,
+				6AE84EB31DA757CE008F1917 /* PrepaidFormTableViewController.xib in Resources */,
 				6A02A9D71DA2429C003DAA75 /* Main.storyboard in Resources */,
 				6A54E34D1DA56FE900970A4C /* ImagePreviewViewController.xib in Resources */,
 			);
@@ -332,17 +345,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AE84EB21DA757CE008F1917 /* PrepaidFormTableViewController.swift in Sources */,
 				6A02A9D41DA2429C003DAA75 /* ViewController.swift in Sources */,
-				6A39E8561DA659DD00D79208 /* PrepaidSummaryViewController.swift in Sources */,
 				6A2015061DA55AED003A2DE1 /* ScannerViewController.swift in Sources */,
 				6A54E34C1DA56FE900970A4C /* ImagePreviewViewController.swift in Sources */,
 				6A92287C1DA6264F006DDF3B /* UIImage+Extension.swift in Sources */,
 				6A39E85C1DA6657500D79208 /* CardCameraViewController.swift in Sources */,
 				6A02A9FD1DA24752003DAA75 /* MTBBarcodeScanner.m in Sources */,
 				6A02A9FA1DA2456B003DAA75 /* NSObject+Test.m in Sources */,
+				6AB977D01DA74B4400140CD2 /* PrepaidSummaryTableViewController.swift in Sources */,
 				6A39E8531DA6334500D79208 /* PrepareRegistrationData.swift in Sources */,
 				6A02A9D21DA2429C003DAA75 /* AppDelegate.swift in Sources */,
-				6A02A9F61DA2436A003DAA75 /* BarcodeScannerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

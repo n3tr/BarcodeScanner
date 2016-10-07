@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PrepaidSummaryTableViewController" customModule="BarcodeScanner" customModuleProvider="target">
+            <connections>
+                <outlet property="barcodeImageCell" destination="fE1-11-IL7" id="OEX-xL-Owu"/>
+                <outlet property="barcodeImageView" destination="vGr-bL-j4i" id="prE-rF-4RC"/>
+                <outlet property="cardImageCell" destination="k06-ZN-87G" id="fmJ-bA-FpQ"/>
+                <outlet property="cardImageView" destination="UFo-SF-Eze" id="unl-uX-cRp"/>
+                <outlet property="detailCell" destination="LUn-je-6Ae" id="CgU-RL-SGd"/>
+                <outlet property="headerCell" destination="pg9-qa-RaC" id="JgG-pB-2Vb"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableView opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" bouncesZoom="NO" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="dataSource" destination="-1" id="Tng-2m-Rnh"/>
+                <outlet property="delegate" destination="-1" id="9aC-8N-iBw"/>
+            </connections>
+            <point key="canvasLocation" x="-131" y="-69"/>
+        </tableView>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="pg9-qa-RaC">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="pg9-qa-RaC" id="6Gd-0F-KGQ">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="สรุปข้อมูลการลงทะเบียน" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kiG-g2-GfU">
+                        <rect key="frame" x="75" y="11" width="170" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="kiG-g2-GfU" firstAttribute="centerX" secondItem="6Gd-0F-KGQ" secondAttribute="centerX" id="CGF-oS-dqL"/>
+                    <constraint firstItem="kiG-g2-GfU" firstAttribute="centerY" secondItem="6Gd-0F-KGQ" secondAttribute="centerY" id="uzY-OG-MSC"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.96470588235294119" green="0.96470588235294119" blue="0.96470588235294119" alpha="1" colorSpace="calibratedRGB"/>
+            <point key="canvasLocation" x="245" y="-347"/>
+        </tableViewCell>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="95" id="fE1-11-IL7">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fE1-11-IL7" id="OG3-ZJ-2yM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="79.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vGr-bL-j4i">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="vGr-bL-j4i" secondAttribute="height" multiplier="4:1" id="aC7-Pn-g1l"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="vGr-bL-j4i" secondAttribute="trailing" id="8id-qr-X9e"/>
+                    <constraint firstItem="vGr-bL-j4i" firstAttribute="leading" secondItem="OG3-ZJ-2yM" secondAttribute="leading" id="Gki-O1-xdm"/>
+                    <constraint firstItem="vGr-bL-j4i" firstAttribute="top" secondItem="OG3-ZJ-2yM" secondAttribute="top" id="Vtb-lM-fSY"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="245" y="-252"/>
+        </tableViewCell>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="202" id="k06-ZN-87G">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="k06-ZN-87G" id="VfS-vN-OwJ">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="199.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UFo-SF-Eze">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="UFo-SF-Eze" secondAttribute="height" multiplier="8:5" id="d0X-qm-5hX"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="UFo-SF-Eze" firstAttribute="top" secondItem="VfS-vN-OwJ" secondAttribute="top" id="0wB-up-pGW"/>
+                    <constraint firstItem="UFo-SF-Eze" firstAttribute="leading" secondItem="VfS-vN-OwJ" secondAttribute="leading" id="BdH-MM-aX3"/>
+                    <constraint firstAttribute="trailing" secondItem="UFo-SF-Eze" secondAttribute="trailing" id="z0k-gR-6R3"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="245" y="-80"/>
+        </tableViewCell>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="162" id="LUn-je-6Ae">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="162"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="LUn-je-6Ae" id="K2d-m5-Lhg">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="161.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="เบอร์โทรศัพท์" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pyA-bF-X6O">
+                        <rect key="frame" x="16" y="8" width="95" height="20"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="082-111-3310" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VpC-P5-21p">
+                        <rect key="frame" x="197" y="8" width="107" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ประเภทบัตร" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AdX-bP-hxS">
+                        <rect key="frame" x="16" y="36" width="84" height="20"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="บัตรประชาชน" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2tn-21-Q3q">
+                        <rect key="frame" x="208" y="36" width="96" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="หมายเลขบัตร" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h66-Gb-hdH">
+                        <rect key="frame" x="16" y="64" width="96" height="20"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1-4099-00506-43-4" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8tb-WN-OOY">
+                        <rect key="frame" x="141" y="64" width="163" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W1F-NM-D3I">
+                        <rect key="frame" x="179" y="123" width="41" height="30"/>
+                        <state key="normal" title="ยกเลิก"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UpC-0l-dVC">
+                        <rect key="frame" x="85" y="123" width="35" height="30"/>
+                        <state key="normal" title="ตกลง"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="h66-Gb-hdH" firstAttribute="top" secondItem="AdX-bP-hxS" secondAttribute="bottom" constant="8" id="5YX-Fe-BgY"/>
+                    <constraint firstItem="AdX-bP-hxS" firstAttribute="leading" secondItem="pyA-bF-X6O" secondAttribute="leading" id="EU0-ap-kFI"/>
+                    <constraint firstItem="2tn-21-Q3q" firstAttribute="trailing" secondItem="VpC-P5-21p" secondAttribute="trailing" id="F8v-7M-HzA"/>
+                    <constraint firstItem="VpC-P5-21p" firstAttribute="centerY" secondItem="pyA-bF-X6O" secondAttribute="centerY" id="L8b-BG-5sr"/>
+                    <constraint firstItem="h66-Gb-hdH" firstAttribute="leading" secondItem="AdX-bP-hxS" secondAttribute="leading" id="LbV-3y-dJr"/>
+                    <constraint firstItem="8tb-WN-OOY" firstAttribute="trailing" secondItem="2tn-21-Q3q" secondAttribute="trailing" id="Q45-4U-M95"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="VpC-P5-21p" secondAttribute="trailing" id="ROB-Q9-eU4"/>
+                    <constraint firstAttribute="trailing" secondItem="VpC-P5-21p" secondAttribute="trailing" constant="16" id="Z8v-s0-C2h"/>
+                    <constraint firstAttribute="topMargin" secondItem="pyA-bF-X6O" secondAttribute="top" id="bgy-Sc-SMF"/>
+                    <constraint firstItem="2tn-21-Q3q" firstAttribute="centerY" secondItem="AdX-bP-hxS" secondAttribute="centerY" id="dqR-Py-CXL"/>
+                    <constraint firstItem="8tb-WN-OOY" firstAttribute="centerY" secondItem="h66-Gb-hdH" secondAttribute="centerY" id="dtY-r1-6AD"/>
+                    <constraint firstItem="pyA-bF-X6O" firstAttribute="leading" secondItem="K2d-m5-Lhg" secondAttribute="leading" constant="16" id="eVo-KW-eGl"/>
+                    <constraint firstItem="AdX-bP-hxS" firstAttribute="top" secondItem="pyA-bF-X6O" secondAttribute="bottom" constant="8" id="mnD-gC-byl"/>
+                    <constraint firstAttribute="leadingMargin" secondItem="pyA-bF-X6O" secondAttribute="leading" id="pRI-oD-sdG"/>
+                    <constraint firstAttribute="leadingMargin" secondItem="pyA-bF-X6O" secondAttribute="leading" id="t1d-Yu-dIr"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="pRI-oD-sdG"/>
+                        <exclude reference="t1d-Yu-dIr"/>
+                        <exclude reference="ROB-Q9-eU4"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.96470588235294119" green="0.96470588235294119" blue="0.96470588235294119" alpha="1" colorSpace="calibratedRGB"/>
+            <point key="canvasLocation" x="245" y="139"/>
+        </tableViewCell>
+    </objects>
+</document>

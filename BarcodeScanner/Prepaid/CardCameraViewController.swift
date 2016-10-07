@@ -75,7 +75,7 @@ class CardCameraViewController: UIViewController {
     func processImage(image: UIImage) {
         let cropped = getImageFromView(image)
         prepardData.cardImage = cropped
-        let summary = PrepaidSummaryViewController(prepaidData: prepardData)
+        let summary = PrepaidFormTableViewController(prepaidData: prepardData)
         self.navigationController?.pushViewController(summary, animated: true)
     }
     
